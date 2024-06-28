@@ -15,4 +15,7 @@ MonoBehaviour:
   actorName: Player
   health: 1
   hitDamge: 1
+  travelSpeed: 120
   actorType: 0
+  actor: {fileID: 8655857608546395028, guid: b0ac05c29a074fe45aed56f7dafff64f, type: 3}
+  actorBullet: {fileID: 754193319675325502, guid: 4cd9d501d997a5a4bbf2be003305f8d3, type: 3}
