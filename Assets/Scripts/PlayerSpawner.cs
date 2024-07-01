@@ -4,27 +4,7 @@ using UnityEngine;
 
 public class PlayerSpawner : MonoBehaviour
 {
-    //public SOActor playerActor;
-    //GameObject playerShip;
-
-    //private void Start()
-    //{
-    //    CreatePlayer();
-    //}
-
-    //void CreatePlayer()
-    //{
-    //    playerShip = GameObject.Instantiate(playerActor.actor) as GameObject;
-    //    playerShip.GetComponent<Player>().AssignProperties(playerActor);
-
-    //    //SET PLAYER UP
-    //    playerShip.transform.rotation = Quaternion.Euler(-90, 180, 0);
-    //    playerShip.transform.localScale = new Vector3(60, 60, 60);
-    //    playerShip.name = "Player";
-    //    playerShip.transform.SetParent(this.transform);
-    //    playerShip.transform.position = Vector3.zero;
-
-    //}
+    
 
     public SOActor playerActor;
     GameObject playerShip;
@@ -36,7 +16,7 @@ public class PlayerSpawner : MonoBehaviour
     void CreatePlayer()
     {
         playerShip = Instantiate(playerActor.actor) as GameObject;
-        
+        playerShip.GetComponent<Player>().AssignProperties(playerActor);
 
 
         playerShip.transform.position = Vector3.zero; //(0,0,0)

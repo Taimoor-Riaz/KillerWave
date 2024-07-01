@@ -1,5 +1,5 @@
 
-public interface IActor
+public interface  IActor
 {
      int ApplyDamage();
 
