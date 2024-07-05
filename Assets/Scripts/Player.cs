@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEditor.Experimental.GraphView.GraphView;
 
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(SphereCollider))]
+
 
 public class Player : MonoBehaviour, IActor
 {
@@ -14,6 +17,7 @@ public class Player : MonoBehaviour, IActor
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+
     }
 
     private void Update()
@@ -61,9 +65,16 @@ public class Player : MonoBehaviour, IActor
         playerSpeed = sOActor.travelSpeed;
         playerBullet = sOActor.actorBullet;
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Die();
+        }
+    }
     public void Die()
     {
+        GameManager.Instance.LifeLost();
         Destroy(gameObject);
     }
 

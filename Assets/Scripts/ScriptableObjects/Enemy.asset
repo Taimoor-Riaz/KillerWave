@@ -15,7 +15,7 @@ MonoBehaviour:
   actorName: Enemy
   health: 1
   hitDamge: 1
-  travelSpeed: 0
+  travelSpeed: -50
   actorType: 1
   actor: {fileID: 3311665147395952635, guid: f5eee5ff89bcbe448988a454f4bed364, type: 3}
   actorBullet: {fileID: 0}
