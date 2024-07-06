@@ -14,6 +14,7 @@ public class PlayerBullet : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Enemy"))
         {
+            
             Destroy(gameObject);
          
         }

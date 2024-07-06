@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour, IActor
     int travelSpeed;
     int fireSpeed;
     int hitPower;
+    int score;
 
     public float amplitude = 1.0f; // The height of the sine wave
     public float frequency = 1.0f; // The speed of the sine wave
@@ -23,7 +24,6 @@ public class Enemy : MonoBehaviour, IActor
     {
         time += Time.deltaTime;
         sineVer.y = Mathf.Sin(time * frequency) * amplitude;
-        Debug.Log(sineVer.y);
         transform.position = new Vector3(transform.position.x -50 * Time.deltaTime,
         transform.position.y + sineVer.y,
         transform.position.z);
@@ -37,6 +37,8 @@ public class Enemy : MonoBehaviour, IActor
 
     public void AssignProperties(SOActor sOActor)
     {
+        hitPower = sOActor.hitDamge;
+        score = sOActor.score;
         
     }
 
@@ -54,6 +56,7 @@ public class Enemy : MonoBehaviour, IActor
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            GameManager.Instance.GetComponent<ScoreManager>().SetScore(score);
             Destroy(gameObject);
         }
     }

@@ -9,6 +9,7 @@ public class SOActor : ScriptableObject
     public int health;
     public int hitDamge;
     public int travelSpeed;
+    public int score;
     public ActorType actorType;
     public GameObject actor;
     public GameObject actorBullet;

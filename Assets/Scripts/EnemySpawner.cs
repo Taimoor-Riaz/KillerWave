@@ -33,6 +33,7 @@ public class EnemySpawner : MonoBehaviour
         for (int i = 0; i < qty; i++)
         {
             GameObject enemyUnit = CreateEnemy();
+            enemyUnit.GetComponent<Enemy>().AssignProperties(actorModel);
            // enemyUnit.transform.parent = this.transform;
             enemyUnit.gameObject.transform.SetParent(this.transform);
             Vector2 randomPosition = new Vector2(
