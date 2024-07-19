@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
         set { died = value; }
     }
 
-    GameObject gameCamera;
+
 
     private void Awake()
     {
@@ -42,18 +42,7 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(this);
 
     }
-    private void Start()
-    {
-        CameraSetting();
-    }
-
-    void CameraSetting()
-    {
-        gameCamera = GameObject.FindGameObjectWithTag("MainCamera");
-        gameCamera.GetComponent<Camera>().clearFlags = CameraClearFlags.SolidColor;
-        gameCamera.GetComponent<Camera>().backgroundColor = Color.black;
-    }
-
+ 
     public void LifeLost()
     {
         //lose life
@@ -65,6 +54,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+
             GetComponent<ScenesManager>().GameOver();
             //reset lives back to 3. 
             playerLives = 3;

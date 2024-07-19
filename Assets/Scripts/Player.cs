@@ -9,10 +9,10 @@ using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class Player : MonoBehaviour, IActor
 {
-    [SerializeField] int health;
-    [SerializeField] int hitDamange;
-    [SerializeField] int playerSpeed;
-    [SerializeField] GameObject playerBullet;
+    int health;
+    int hitDamange;
+    int playerSpeed;
+    GameObject playerBullet;
     Rigidbody rb;
     private void Start()
     {
@@ -48,7 +48,7 @@ public class Player : MonoBehaviour, IActor
             GameObject bullet = Instantiate(playerBullet, transform.position, Quaternion.identity);
             bullet.transform.parent = this.transform;
             bullet.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
-          
+
         }
     }
 
@@ -69,7 +69,16 @@ public class Player : MonoBehaviour, IActor
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            Die();
+            if (health >= 1)
+            {
+                TakeDamge(other.GetComponent<Enemy>().ApplyDamage());
+            }
+            if (health <= 0)
+            {
+                Die();
+            }
+
+           
         }
     }
     public void Die()

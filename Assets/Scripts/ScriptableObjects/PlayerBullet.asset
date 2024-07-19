@@ -16,6 +16,7 @@ MonoBehaviour:
   health: 1
   hitDamge: 1
   travelSpeed: 700
+  score: 0
   actorType: 2
   actor: {fileID: 0}
   actorBullet: {fileID: 0}

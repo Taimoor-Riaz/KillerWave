@@ -17,11 +17,12 @@ public class PlayerSpawner : MonoBehaviour
     {
         playerShip = Instantiate(playerActor.actor) as GameObject;
         playerShip.GetComponent<Player>().AssignProperties(playerActor);
-
+    
 
         playerShip.transform.position = Vector3.zero; //(0,0,0)
         playerShip.transform.parent = this.transform;  // Set parent object ka instatntia ke 
         playerShip.transform.localScale = new Vector3(60, 60, 60);
+        playerShip.transform.GetChild(0).GetComponent<Transform>().localScale = new Vector3(30, 30, 30);
         playerShip.transform.rotation = Quaternion.Euler(-90,0,180);
         playerShip.name = "Player";
     }

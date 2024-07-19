@@ -17,14 +17,17 @@ public class Enemy : MonoBehaviour, IActor
 
     private void Update()
     {
-        Movement();
+        if (Time.timeScale > 0)
+        {
+            Movement();
+        }
     }
 
     void Movement()
     {
         time += Time.deltaTime;
         sineVer.y = Mathf.Sin(time * frequency) * amplitude;
-        transform.position = new Vector3(transform.position.x -50 * Time.deltaTime,
+        transform.position = new Vector3(transform.position.x - 50 * Time.deltaTime,
         transform.position.y + sineVer.y,
         transform.position.z);
 
@@ -37,28 +40,47 @@ public class Enemy : MonoBehaviour, IActor
 
     public void AssignProperties(SOActor sOActor)
     {
+        health = sOActor.health;
         hitPower = sOActor.hitDamge;
         score = sOActor.score;
-        
+
     }
 
     public void Die()
     {
-      
+        Destroy(gameObject);
     }
 
     public void TakeDamge(int damage)
     {
-      
+        health -= damage;
+      //  health = health - damage;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            GameManager.Instance.GetComponent<ScoreManager>().SetScore(score);
-            Destroy(gameObject);
+            if (health >= 1)
+            {
+                if (other.GetComponent<Player>())
+                {
+                     TakeDamge(other.GetComponent<Player>().ApplyDamage());
+                }
+                else if(other.GetComponent<PlayerBullet>())
+                {
+                    TakeDamge(other.GetComponent<PlayerBullet>().ApplyDamage());
+                }
+
+            }
+            if (health <= 0)
+            {
+                GameManager.Instance.GetComponent<ScoreManager>().SetScore(score);
+                
+                Die();
+            }        
         }
+       
     }
 
 }
