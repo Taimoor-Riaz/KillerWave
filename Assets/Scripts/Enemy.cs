@@ -76,7 +76,8 @@ public class Enemy : MonoBehaviour, IActor
             if (health <= 0)
             {
                 GameManager.Instance.GetComponent<ScoreManager>().SetScore(score);
-                
+                GameManager.Instance.DecreseEnemies();
+                GameManager.Instance.CheckScore();
                 Die();
             }        
         }

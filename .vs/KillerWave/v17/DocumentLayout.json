@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "D:\\GithubProjects\\KillerWave\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|d:\\githubprojects\\killerwave\\assets\\enemiesnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\enemiesnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|d:\\githubprojects\\killerwave\\assets\\scripts\\scenesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|d:\\githubprojects\\killerwave\\assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|d:\\githubprojects\\killerwave\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\scenesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\shopupgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shopupgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\shopupgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shopupgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\setvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\setvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\shopupgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shopupgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\iactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|D:\\GithubProjects\\KillerWave\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A9797C-0D35-57BD-B7F6-30ACC0B7E2CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GithubProjects\\KillerWave\\Assets\\ScaleExample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ScaleExample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -94,45 +94,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "EnemiesND.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\EnemiesND.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemiesND.cs",
+              "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\EnemiesND.cs",
+              "RelativeToolTip": "Assets\\EnemiesND.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:21:25.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T10:27:09.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
               "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAAEsAAAAQAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAwwE4AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T08:57:18.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\UIManager.cs",
-              "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\UIManager.cs",
-              "RelativeToolTip": "Assets\\UIManager.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T10:04:05.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SOActor.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ScriptableObjects\\SOActor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\SOActor.cs",
-              "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ScriptableObjects\\SOActor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\SOActor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:24:08.554Z"
+              "WhenOpened": "2024-07-05T08:57:18.044Z"
             },
             {
               "$type": "Document",
@@ -142,64 +141,51 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ShopUpgrade.cs",
               "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ShopUpgrade.cs",
               "RelativeToolTip": "Assets\\Scripts\\ShopUpgrade.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAEwBEAAAAFAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T10:17:29.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SetValues.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\SetValues.cs",
-              "RelativeDocumentMoniker": "Assets\\SetValues.cs",
-              "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\SetValues.cs",
-              "RelativeToolTip": "Assets\\SetValues.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T10:05:34.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ScenesManager.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ScenesManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScenesManager.cs",
               "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ScenesManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScenesManager.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAgwA0AAABEAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAwB4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T09:10:47.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAkwDkAAAA1AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwBgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T09:03:46.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
               "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBQAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T09:11:47.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T09:11:47.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PlayerBullet.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\PlayerBullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBullet.cs",
@@ -211,7 +197,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwCAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T08:52:47.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SOActor.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ScriptableObjects\\SOActor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\SOActor.cs",
+              "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ScriptableObjects\\SOActor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\SOActor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T10:24:08.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ShopUpgradeManager.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ShopUpgradeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ShopUpgradeManager.cs",
@@ -223,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
@@ -235,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SOShop.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\ScriptableObjects\\SOShop.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\SOShop.cs",
@@ -247,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CameraManager.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\CameraManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraManager.cs",
@@ -259,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IActor.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\IActor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IActor.cs",
@@ -284,18 +294,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
-              "ToolTip": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T08:52:47.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "PlayerSpawner.cs",
               "DocumentMoniker": "D:\\GithubProjects\\KillerWave\\Assets\\Scripts\\PlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",

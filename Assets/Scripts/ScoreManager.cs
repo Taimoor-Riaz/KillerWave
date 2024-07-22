@@ -6,7 +6,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class ScoreManager : MonoBehaviour
 {
     static int playerScore;
-    public int PlayersScore
+    public static int PlayersScore
     {
         get
         {
@@ -17,7 +17,7 @@ public class ScoreManager : MonoBehaviour
     public void SetScore(int incomingScore)
     {
         playerScore += incomingScore;
-        PlayerPrefs.SetInt("Coins",PlayerPrefs.GetInt("Coins")+PlayersScore);
+     //   PlayerPrefs.SetInt("Coins",PlayerPrefs.GetInt("Coins")+PlayersScore);
         UIManager.Instance.DisplayScore();
     }
 }

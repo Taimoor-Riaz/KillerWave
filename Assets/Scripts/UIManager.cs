@@ -34,7 +34,7 @@ public class UIManager : MonoBehaviour
 
     public void DisplayScore()
     {
-        scoreText.text = "Score : " + PlayerPrefs.GetInt("Coins");
+        scoreText.text = "Score : " + ScoreManager.PlayersScore;
     }
 
     public void UpdateLifes()

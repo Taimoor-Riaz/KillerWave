@@ -8,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
     SOActor actorModel;
 
     [SerializeField]
-    [Range(0, 10)]
+    [Range(0, 100)]
     int quantity;
 
     [SerializeField]
@@ -26,8 +26,12 @@ public class EnemySpawner : MonoBehaviour
     {
   
         StartCoroutine(FireEnemy(quantity));
+        
     }
-
+    //private void Start()
+    //{
+    //    GameManager.Instance.TotalEnemies = quantity;
+    //}
     IEnumerator FireEnemy(int qty)
     {
         for (int i = 0; i < qty; i++)

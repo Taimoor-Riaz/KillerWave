@@ -22,12 +22,19 @@ public class GameManager : MonoBehaviour
         get { return died; }
         set { died = value; }
     }
-
-
+    [HideInInspector]
+    public int TotalEnemies;
+    [HideInInspector]
+    public int TotalScore;
 
     private void Awake()
     {
         CheckGameManagerIsInTheScene();
+    }
+    private void Start()
+    {
+        TotalEnemies = LevelManager.instance.maximumEnemies;
+        TotalScore = LevelManager.instance.maxScore;
     }
     void CheckGameManagerIsInTheScene()
     {
@@ -56,8 +63,26 @@ public class GameManager : MonoBehaviour
         {
 
             GetComponent<ScenesManager>().GameOver();
+            PlayerPrefs.SetInt("Coins", ScoreManager.PlayersScore);
             //reset lives back to 3. 
             playerLives = 3;
+        }
+    }
+
+    public void DecreseEnemies()
+    {
+        TotalEnemies--;
+        if (TotalEnemies <= 0)
+        {
+            GetComponent<ScenesManager>().LevelComplete();
+        }
+    }
+
+    public void CheckScore()
+    {
+        if(ScoreManager.PlayersScore >= TotalScore)
+        {
+            GetComponent<ScenesManager>().LevelComplete();
         }
     }
 }
