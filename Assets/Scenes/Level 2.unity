@@ -888,8 +888,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9242cc5a52a6119448bf1d08bbcd91fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actorModel: {fileID: 11400000, guid: 1cf371d5c11a5984a99279cd9488e4ac, type: 2}
-  quantity: 100
+  actorModel: {fileID: 11400000, guid: c3429276033dfc94faa99a91c1c06baf, type: 2}
+  quantity: 25
   spawnAreaMin: {x: 400, y: -150}
   spawnAreaMax: {x: 400, y: 150}
   minSpawnDelay: 0.5
@@ -1971,6 +1971,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2062,6 +2063,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c3777604af1d8f4daa1f444ece007cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898adfdc11633d24d95b4da19ac763e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1039589985

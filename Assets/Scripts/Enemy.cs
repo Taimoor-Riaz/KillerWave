@@ -1,7 +1,8 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using EZCameraShake;
 public class Enemy : MonoBehaviour, IActor
 {
     int health;
@@ -14,6 +15,7 @@ public class Enemy : MonoBehaviour, IActor
     public float frequency = 1.0f; // The speed of the sine wave
     Vector3 sineVer;
     float time;
+    [SerializeField] GameObject explosionParticle;
 
     private void Update()
     {
@@ -75,9 +77,12 @@ public class Enemy : MonoBehaviour, IActor
             }
             if (health <= 0)
             {
+                CameraShaker.Instance.ShakeOnce(20f, 10f, 0.5f, 0.5f);
                 GameManager.Instance.GetComponent<ScoreManager>().SetScore(score);
                 GameManager.Instance.DecreseEnemies();
                 GameManager.Instance.CheckScore();
+                GameObject temp= Instantiate(explosionParticle,transform.position, Quaternion.identity);
+                temp.transform.localScale = new Vector3(30, 30, 30);
                 Die();
             }        
         }

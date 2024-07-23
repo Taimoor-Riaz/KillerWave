@@ -1971,6 +1971,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2064,6 +2065,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c3777604af1d8f4daa1f444ece007cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab8353b5ebd32545867da143199a814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultPosInfluence: {x: 0.15, y: 0.15, z: 0.15}
+  DefaultRotInfluence: {x: 1, y: 1, z: 1}
+  RestPositionOffset: {x: 0, y: 0, z: -300}
+  RestRotationOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &1039589985
 GameObject:
   m_ObjectHideFlags: 0
@@ -2683,8 +2700,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f5e6acc4734dfb458e8f97a1bb8d07a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximumEnemies: 10
-  maxScore: 1000
+  maximumEnemies: 30
+  maxScore: 50000
 --- !u!4 &1940367106
 Transform:
   m_ObjectHideFlags: 0
